@@ -52,6 +52,7 @@ public extension UIPanGestureRecognizer {
 }
 
 @available(iOS 13.0, *)
+@available(visionOS, unavailable)
 public extension UIScreenEdgePanGestureRecognizer {
     /// A publisher which emits when this Screen Edge Gesture Recognizer is triggered
     var screenEdgePanPublisher: AnyPublisher<UIScreenEdgePanGestureRecognizer, Never> {

@@ -1,9 +1,9 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
     name: "CombineCocoa",
-    platforms: [.iOS(.v10)],
+    platforms: [.iOS(.v12), .visionOS(.v1)],
     products: [
         .library(name: "CombineCocoa", targets: ["CombineCocoa"]),
     ],
